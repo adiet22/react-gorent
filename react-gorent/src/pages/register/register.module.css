@@ -1,0 +1,97 @@
+.container {
+  width: 90%;
+  padding: 20px;
+  margin: 50px auto;
+  float: right;
+}
+
+.bgregis {
+  height: 767px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+    url('https://res.cloudinary.com/zazh/image/upload/v1665322070/image/login.png');
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+h2 {
+  font-family: Playfair Display;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.parent {
+  font-family: Nunito;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0px 0px 0px;
+  padding-left: 20px;
+}
+
+.parent2 {
+  font-family: Nunito;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 40px 0px 0px 100px;
+  padding-left: 20px;
+}
+
+.forgot {
+  font-family: Nunito;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.forgot2 {
+  font-family: Nunito;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  margin-top: -20px;
+}
+
+.btn {
+  font-family: Nunito;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(255, 255, 0);
+  width: 380px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+.btn2 {
+  font-family: Nunito;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  width: 380px;
+  height: 50px;
+}
+
+.line {
+  border-left: 2px solid #ffffff;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  margin: 150px 0px 0px 0px;
+  top: 0;
+}
+
+.form {
+  font-family: Nunito;
+  font-size: 17px;
+  width: 380px;
+  height: 50px;
+  font-weight: bold;
+  padding-left: 20px;
+  opacity: 0.5;
+}
+
+.form::placeholder {
+  color: rgb(133, 127, 93);
+  /* opacity: 1; */
+}

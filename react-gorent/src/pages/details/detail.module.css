@@ -1,0 +1,151 @@
+h2 {
+  font-family: Nunito;
+  font-weight: 700;
+}
+
+h4 {
+  font-family: Playfair Display;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+h5 {
+  font-family: Playfair Display;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+a:hover {
+  color: black;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.image {
+  width: 610px;
+  height: 409px;
+  object-fit: cover;
+  border-radius: 10px;
+  align-items: flex-start;
+}
+
+.dispimage {
+  width: 233px;
+  height: 158px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 35px;
+}
+
+.rightside {
+  padding-left: 40px;
+  font-family: Playfair Display;
+  text-transform: capitalize;
+  width: 420px;
+}
+
+.price {
+  text-align: right;
+  font-family: Playfair Display;
+  font-size: 26px;
+  font-weight: 900;
+  margin-top: 60px;
+}
+
+.newdiv {
+  padding-top: 50px;
+}
+
+.stock {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 120px;
+}
+
+h3 {
+  font-family: Nunito;
+  font-weight: 900;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-left: 100px;
+}
+
+.button1 {
+  font-family: Nunito;
+  font-weight: 900;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  padding-bottom: 50px;
+  margin-left: 100px;
+}
+
+.btn1 {
+  font-family: Nunito;
+  font-size: 15px;
+  font-weight: 600;
+  color: orange;
+  width: 380px;
+  height: 50px;
+  margin-left: 15px;
+}
+
+.btn2 {
+  font-family: Nunito;
+  font-size: 15px;
+  font-weight: 600;
+  color: black;
+  width: 380px;
+  height: 50px;
+  margin-left: 15px;
+}
+
+.btn3 {
+  font-family: Nunito;
+  font-size: 15px;
+  font-weight: 600;
+  color: orange;
+  width: 220px;
+  height: 50px;
+  margin-left: 15px;
+}
+
+.desc {
+  font-family: Nunito;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.status {
+  line-height: 1;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+.ava {
+  color: green;
+}
+
+.np {
+  color: red;
+}
+
+.form {
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+.formParent {
+  font-family: Nunito;
+  font-size: 15px;
+  font-weight: 600;
+}

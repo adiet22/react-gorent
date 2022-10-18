@@ -1,0 +1,22 @@
+.container {
+  width: 90%;
+  padding: 10px;
+  margin: auto;
+}
+
+h2 {
+  font-family: Playfair Display;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.bghome {
+  height: 767px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+    url('https://res.cloudinary.com/zazh/image/upload/v1665070935/image/home.png');
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}

@@ -1,0 +1,39 @@
+.content {
+  margin: auto 100px;
+  float: left;
+}
+
+.button1 {
+  width: 110px;
+  height: 40px;
+  margin-left: 15px;
+  margin-bottom: 3px;
+}
+
+.nav {
+  line-height: 22px;
+  height: auto;
+  background-color: white;
+}
+
+.navbold {
+  font-weight: 500;
+}
+
+.a {
+  font-family: Nunito;
+  font-weight: 600;
+  padding: 10px;
+  display: inline-block;
+  color: darkgrey;
+  text-decoration: none !important;
+}
+
+.a:hover {
+  color: black;
+}
+
+.a:focus {
+  color: black;
+  font-weight: 600;
+}

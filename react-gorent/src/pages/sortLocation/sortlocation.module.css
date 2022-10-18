@@ -1,0 +1,19 @@
+.container {
+  width: 90%;
+  padding: 20px;
+  margin: 50px auto;
+}
+
+h2 {
+  font-family: Playfair Display;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.locstyle {
+  width: 180px;
+  height: 52px;
+  margin-left: 10px;
+  margin-top: 20px;
+  border-radius: 6px;
+}
