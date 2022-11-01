@@ -1,1 +1,1 @@
-web: bin/react-gorent/go-server
+web: /bin/react-gorent/go-server
