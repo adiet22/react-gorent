@@ -1,31 +1,31 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Details from './pages/details/detail'
-import Home from './pages/home/home'
-import Login from './pages/login/login'
-import Register from './pages/register/register'
-import Vehicle from './pages/vehicles/vehicle'
-import AllVehicle from './pages/vehicles/viewAll'
-import Search from './pages/search/search'
-import SortLocation from './pages/sortLocation/sortlocation'
-import Category from './pages/sortType/sorttype'
+import Home from './pages/home'
+import Login from './pages/login'
+import Register from './pages/register'
+import Vehicles from './pages/vehicles'
+import TypeVehicle from './pages/vehicles/typeVehicle'
+import AddVehicle from './pages/vehicles/addVehicle'
+import Details from './pages/vehicles/details'
+import Admin from './pages/admin'
+import EditVehicle from './pages/vehicles/editVehicle'
 
-function router() {
+function Router() {
   return (
     <BrowserRouter>
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/login" element={<Login />} />
         <Route exact path="/register" element={<Register />} />
-        <Route exact path="/vehi/" element={<Vehicle />} />
-        <Route exact path="/vehi/:category" element={<AllVehicle />} />
-        <Route exact path="/detail/:name" element={<Details />} />
-        <Route exact path="/search/:name" element={<Search />} />
-        <Route exact path="/location/:location" element={<SortLocation />} />
-        <Route exact path="/type/:type" element={<Category />} />
+        <Route exact path="/vehicles" element={<Vehicles />} />
+        <Route exact path="/vehicles/:category" element={<TypeVehicle />} />
+        <Route exact path="/vehicles/details/:id" element={<Details />} />
+        <Route exact path="/vehicles/add" element={<AddVehicle />} />
+        <Route exact path="/vehicles/edit/:id" element={<EditVehicle />} />
+        <Route exact path="/admin" element={<Admin />} />
       </Routes>
     </BrowserRouter>
   )
 }
 
-export default router
+export default Router

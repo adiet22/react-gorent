@@ -6,10 +6,10 @@ function useApi(urls = '') {
   const { token } = useSelector((state) => state.users)
 
   const [requests, setRequests] = useState({
-    baseURL: 'https://gorent-api.herokuapp.com',
+    baseURL: process.env.REACT_APP_BASE_URL || urls,
     headers: {
       'Content-Type': 'application/json',
-      Authorization: `Bearer ${token.token}`
+      Authorization: `Bearer ${token}`
     }
   })
 
@@ -18,7 +18,7 @@ function useApi(urls = '') {
       ...requests,
       headers: {
         'Content-Type': 'application/json',
-        Authorization: `Bearer ${token.token}`
+        Authorization: `Bearer ${token}`
       }
     })
   }

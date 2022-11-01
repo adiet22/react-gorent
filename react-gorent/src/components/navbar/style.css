@@ -1,0 +1,23 @@
+header {
+  font-family: 'Nunito';
+  font-size: 15px;
+}
+
+.navmenu {
+  display: flex;
+  align-items: center; /* align vertical */
+  margin-right: 35px;
+}
+
+.navmenu:hover {
+  font-weight: bold;
+  border-bottom: 3px solid #fb8f1d;
+}
+
+.navbtn {
+  width: 132px;
+}
+
+.btnlog {
+  font-weight: bold;
+}

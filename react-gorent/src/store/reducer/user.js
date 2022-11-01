@@ -27,7 +27,6 @@ const userSlice = createSlice({
     addUsers(state, actions) {
       return {
         ...state,
-        isAuth: true,
         data: actions.payload
       }
     }

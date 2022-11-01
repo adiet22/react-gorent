@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+<h1 align="center">Go Rent</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3 align="center">
+    <a href="https://gorentall.netlify.app/" target="blank">View Demo</a>
+</h3>
+  
+  <div align="center">
+    <table>
+  <tr>
+    <th>
+      <img src="https://res.cloudinary.com/chirzul/image/upload/v1666070072/gorent-all/Login_sxpb6s.png" width="400px" alt="Arkademylogo.svg" />
+        <p align="center">Login Page</p>
+    </th>
+    <th>
+      <img src="https://res.cloudinary.com/chirzul/image/upload/v1666070060/gorent-all/Home_ane19q.png" width="400px" alt="Arkademylogo.svg" />
+        <p align="center">Home Page</p>
+    </th>
+  </tr>
+ <tr>
+    <th>
+      <img src="https://res.cloudinary.com/chirzul/image/upload/v1666070087/gorent-all/allvehicle_w4pd4n.png" width="400px" alt="Arkademylogo.svg" />
+        <p align="center">List Vehicle</p>
+    </th>
+    <th>
+      <img src="https://res.cloudinary.com/chirzul/image/upload/v1666070046/gorent-all/Admin_bnrowx.png" width="400px" alt="Arkademylogo.svg" />
+        <p align="center">Admin Page</p>
+    </th>
+  </tr>
+</table>
+  </div>
 
-## Available Scripts
+## Built With
 
-In the project directory, you can run:
+[![React.js](https://img.shields.io/badge/React.js-18.x-orange.svg?style=rounded-square)](https://reactjs.org/)
+[![Bootstrap](https://img.shields.io/badge/Bootstrap-v5.2.x-blue)](https://github.com/react-bootstrap/react-bootstrap)
 
-### `yarn start`
+## 🔗 Description
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Go Rent is an application of vehicle rental systems such as cars, motorcycles, and bike. Users can search vehicles by vehicle name, filter vehicles based on price, location and category of vehicles. In addition, users can also see the details of the vehicle to be rented.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Installation Steps
 
-### `yarn test`
+1. Clone the repository
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   ```bash
+    git clone https://github.com/chirzul/gorent.git
+   ```
 
-### `yarn build`
+2. Install dependencies
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   npm install
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Add .env file at root folder project
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```sh
+   REACT_APP_BASE_URL = Your Backend API
+   ```
 
-### `yarn eject`
+4. Run the app
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   npm start
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+5. You are all set!
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+   View the website at: http://localhost:3000
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Backend Repository
 
-## Learn More
+Backend API : gorent - Backend [here](https://github.com/chirzul/gorent.git)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🚀 About Me
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Linkedin : [Muhammad Chirzul Maula](https://www.linkedin.com/in/chirzulmaula/)

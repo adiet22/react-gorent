@@ -1,119 +1,130 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&family=Nunito:wght@200;700;900&family=Playfair+Display:wght@400;600;900&display=swap');
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&family=Nunito:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
 
-* {
-  box-sizing: border-box;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
-  font-family: Nunito;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
-
-h2 {
-  font-family: Playfair Display;
-  text-transform: capitalize;
-  font-weight: bold;
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
-
-a {
-  color: black;
-  text-decoration: none !important;
+body {
+  line-height: 1;
 }
-
-.admin {
-  width: 400px;
+ol,
+ul {
+  list-style: none;
 }
-
-.reservation {
-  width: 400px;
+blockquote,
+q {
+  quotes: none;
 }
-
-.container {
-  width: 90%;
-  padding-top: auto;
-  margin: 20px auto;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
 }
-
-.content {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding-bottom: 50px;
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-.name {
-  font-weight: 900;
-  font-size: 22px;
-}
-
-.sub {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 50px;
-}
-
-.sub > a {
-  font-weight: 900;
-  color: #fb8f1d;
-  font-size: 20px;
-}
-
-.testimoni {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  align-items: center;
-  padding-bottom: 50px;
-  font-family: Mulish;
-  font-weight: 400;
-  font-size: 24px;
-  position: relative;
-}
-
-.testimoni > div {
-  width: 420px;
-  word-wrap: break-word;
-}
-
-.testimoni :nth-child(2) {
-  width: 384px;
-  height: 491px;
-  justify-content: flex-end;
-  margin-left: 90px;
-}
-
-.testimoni :nth-child(2) > div {
-  border-top-left-radius: 16px;
-  border-top-right-radius: 0px;
-  position: relative;
-}
-
-.testimoni :nth-child(2) > div > p {
-  width: 2px;
-  height: 2px;
-}
-
-.LinkStyle {
-  color: black;
-}
-
-.button {
-  border-radius: 6px;
-  border-style: solid;
-  border-width: thin;
-  padding: 5px;
-  margin-right: 10px;
-  width: 443px;
-}
-
-@media only screen and (max-width: 1000px) {
-  .testimoni {
-    grid-template-columns: 1fr;
-  }
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
 }

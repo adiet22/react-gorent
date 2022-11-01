@@ -1,0 +1,30 @@
+.detail-name {
+  font-family: 'Playfair Display';
+  font-weight: 900;
+  font-size: 48px;
+}
+.detail-location {
+  font-family: 'Playfair Display';
+  font-weight: 400;
+  font-size: 36px;
+}
+
+.detail-status {
+  font-family: 'Nunito';
+  font-weight: 700;
+  font-size: 24px;
+  color: #087e0d;
+}
+
+.detail-desc {
+  font-family: 'Nunito';
+  font-size: 24px;
+  font-weight: 300;
+  color: #9b0a0a;
+}
+
+.detail-etc {
+  font-family: 'Nunito';
+  font-size: 24px;
+  font-weight: 300;
+}
